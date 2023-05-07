@@ -3,6 +3,14 @@ p, h1, h2, h3 {
     line-height: 120%;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
 .background {
     display: flex;
     align-items: center;
@@ -29,18 +37,40 @@ p, h1, h2, h3 {
     width: 150px;
 }
 
-.content {
+.name-box {
     position: absolute;
     top: 70px;
     left: 280px;
-    /* background: lightcyan; */
     width: 550px;
-    height: 250px;
+    height: 140px;
+    font-family: 'garam-flower';
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
-.content h1, h2, p, a {
+.content {
+    background: lightblue;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 220px;
+    left: 130px;
     font-family: 'garam-flower';
 }
+
+.intro {
+    background: lemonchiffon;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 220px;
+    left: 500px;
+    font-family: 'garam-flower';
+}
+
+
+
 
 @font-face { 
     font-family: "garam-flower";
