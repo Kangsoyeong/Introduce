@@ -1,0 +1,50 @@
+p, h1, h2, h3 {
+    margin: 0;
+    line-height: 120%;
+}
+
+.background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-image: url(../Introduce/background.jpg);
+    width: 100vw;
+    height: 100vh;
+}
+
+.book {
+    background-image: url(../Introduce/book.png);
+    width: 900px;
+    height: 650px;
+    position: relative;
+    display: flex;
+}
+
+.profile-img {
+    position: absolute;
+    top: 70px;
+    left: 120px;
+    border-radius: 100%;
+    width: 150px;
+}
+
+.content {
+    position: absolute;
+    top: 70px;
+    left: 280px;
+    /* background: lightcyan; */
+    width: 550px;
+    height: 250px;
+}
+
+.content h1, h2, p, a {
+    font-family: 'garam-flower';
+}
+
+@font-face { 
+    font-family: "garam-flower";
+    src: url("../garam-flower.ttf") format("truetype");
+    font-weight: normal;
+} 
+
