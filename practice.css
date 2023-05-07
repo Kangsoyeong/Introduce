@@ -50,7 +50,6 @@ a:visited {
 }
 
 .content {
-    /* background: lightblue; */
     position: absolute;
     width: 300px;
     height: 300px;
@@ -60,9 +59,8 @@ a:visited {
 }
 
 .intro {
-    /* background: lemonchiffon; */
     position: absolute;
-    width: 320px;
+    width: 330px;
     height: 300px;
     top: 220px;
     left: 500px;
